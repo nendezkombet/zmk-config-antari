@@ -52,8 +52,8 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)
    mao_encoder: mao_encoder {
      compatible = "alps,ec11";
      label = "mao encoder";
-     a-gpios = <&xiao_d 8(GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-     b-gpios = <&xiao_d 7(GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+     a-gpios = <&xiao_d 7(GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+     b-gpios = <&xiao_d 8(GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
      steps = <80>;
      status = "disabled";
    };
