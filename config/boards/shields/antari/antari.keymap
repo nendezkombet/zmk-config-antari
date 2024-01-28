@@ -12,7 +12,6 @@
 #define FRST  0
 #define SCND  1
 #define THRD  2
-#define FRTH  3
 
 
 / {
@@ -26,7 +25,7 @@
             bindings = <
                 &kp A		&kp B		&kp C		&kp D		
                 &kp E           &kp F		&kp G    	&kp H		
-                &kp I		&kp J		&kp K		&kp L		&lt FRTH SPACE	
+                &kp I		&kp J		&kp K		&kp L		&lt THRD SPACE	
             >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -44,19 +43,9 @@
         media_layer {
             label = "Media";
             bindings = <
-                &trans		&trans		&trans		&trans		
-                &trans		&trans		&trans		&trans		
-                &trans		&trans		&trans		&trans		&trans	
-            >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        configuration_layer {
-            label = "Configuration";
-            bindings = <
                 &bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&trans		
                 &bt BT_CLR	&out OUT_USB	&out OUT_TOG	&trans			
-                &out OUT_TOG	&out OUT_BLE	&trans		&trans	   	&trans		
+                &out OUT_TOG	&out OUT_BLE	&trans		&trans	   	&trans	
             >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
