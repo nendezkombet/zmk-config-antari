@@ -28,7 +28,7 @@
                 &kp 5           &kp 6		&kp 7    	&kp #		
                 &kp .		&kp -		&kp m		&kp M		&lt FRTH SPACE	
             >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         nav_layer {
