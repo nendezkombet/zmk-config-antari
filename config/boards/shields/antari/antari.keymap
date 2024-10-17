@@ -24,9 +24,9 @@
         base_layer {
             label = "Base";
             bindings = <
-                &kp 1		&kp 2		&kp 3		&kp 4		
-                &kp 5           &kp 6		&kp 7    	&kp #		
-                &kp .		&kp -		&kp m		&kp M		&lt FRTH SPACE	
+                &kp N1		&kp N2		&kp N3		&kp N4		
+                &kp N5           &kp N6		&kp N7    	&trans		
+                &trans		&trans		&trans		&trans		&lt FRTH SPACE	
             >;
       sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
