@@ -20,5 +20,3 @@
 include:
   - board: seeeduino_xiao_ble
     shield: antari
-  - board: seeeduino_xiao_ble
-    shield: antari rgbled_adapter  
